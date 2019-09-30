@@ -11,9 +11,9 @@ namespace wadeshuler\jwplayer;
 
 use Yii;
 use yii\base\InvalidConfigException;
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class JWConfig extends Object
+class JWConfig extends BaseObject
 {
     public $key;
     public $htmlTag = 'div';
